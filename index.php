@@ -233,7 +233,7 @@ if (isset($_SESSION['voter'])) {
 				<button type="submit" name="login">
 					<span></span>
 					<span></span>
-					<span>asdasda</span>
+					<span></span>
 					<span></span>
 					Sign In
 				</button>
