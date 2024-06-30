@@ -1,5 +1,5 @@
 <!-- Description -->
-<div class="modal fade" id="platform">
+<div class="modal fade" data-backdrop="" id="platform">
     <div class="modal-dialog">
         <div class="modal-content" style="background-color: #d8d1bd ;color:black ; font-size: 15px; font-family:Times ">
             <div class="modal-header">
@@ -18,7 +18,7 @@
 </div>
 
 <!-- Add -->
-<div class="modal fade" id="addnew">
+<div class="modal fade" data-backdrop="" id="addnew">
     <div class="modal-dialog">
         <div class="modal-content" style="background-color: #d8d1bd ;color:black ; font-size: 15px; font-family:Times ">
             <div class="modal-header">
@@ -85,7 +85,7 @@
 </div>
 
 <!-- Edit -->
-<div class="modal fade" id="edit">
+<div class="modal fade" data-backdrop="" id="edit">
     <div class="modal-dialog">
         <div class="modal-content" style="background-color: #d8d1bd ;color:black ; font-size: 15px; font-family:Times ">
             <div class="modal-header">
@@ -146,7 +146,7 @@
 </div>
 
 <!-- Delete -->
-<div class="modal fade" id="delete">
+<div class="modal fade" data-backdrop="" id="delete">
     <div class="modal-dialog">
         <div class="modal-content" style="background-color: #d8d1bd ;color:black ; font-size: 15px; font-family:Times ">
             <div class="modal-header">
@@ -172,7 +172,7 @@
 </div>
 
 <!-- Update Photo -->
-<div class="modal fade" id="edit_photo">
+<div class="modal fade" data-backdrop="" id="edit_photo">
     <div class="modal-dialog">
         <div class="modal-content" style="background-color: #d8d1bd ;color:black ; font-size: 15px; font-family:Times ">
             <div class="modal-header">

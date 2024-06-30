@@ -1,5 +1,5 @@
 <!-- Reset -->
-<div class="modal fade" id="reset">
+<div class="modal fade" data-backdrop="" id="reset">
     <div class="modal-dialog">
         <div class="modal-content" style="background-color: #d8d1bd ;color:black ; font-size: 15px; font-family:Times ">
             <div class="modal-header">

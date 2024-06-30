@@ -1,9 +1,7 @@
 <?php include 'includes/session.php'; ?>
 <?php include 'includes/header.php'; ?>
 <style>
-	.modal-backdrop.in {
-    opacity: 0 !important;
-}
+
 </style>
 <body class="hold-transition skin-blue layout-top-nav">
 	<div class="wrapper">

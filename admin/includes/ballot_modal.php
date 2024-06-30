@@ -1,5 +1,5 @@
 <!-- Platform -->
-<div class="modal fade" id="platform">
+<div class="modal fade" data-backdrop="" id="platform">
     <div class="modal-dialog">
         <div class="modal-content" style="background-color: #d8d1bd ;color:black ; font-size: 15px; font-family:Times ">
             <div class="modal-header">
