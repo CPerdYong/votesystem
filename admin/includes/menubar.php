@@ -1,12 +1,12 @@
 <style>
   /* Sidebar */
   .main-sidebar {
-    background-color: #BAB9B9;
+    background: linear-gradient(#fc5c7d, #6a82fb);
     /* Adjust width as needed */
   }
 
   .sidebar {
-    background-color: #BAB9B9;
+    background-color: rgba(240,240,240,0.2);
   }
 
   .user-panel {
@@ -132,19 +132,62 @@
     <!-- sidebar menu: : style can be found in sidebar.less -->
     <ul class="sidebar-menu" data-widget="tree"
       style="background-color: #786974 ; color:white ; font-size: 15px; font-family:Times  ">
-      <li class="header" style="background-color: #28272D ;color:white ; font-size: 12px; font-family:Times  ">REPORTS
+      
+      <li class="header" style="background-color: #28272D ;color:white ; font-size: 12px; font-family:Times  ">
+        MAIN
       </li>
-      <li class=""><a href="home.php"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a></li>
-      <li class=""><a href="votes.php"><span class="glyphicon glyphicon-lock"></span> <span>Votes</span></a></li>
-      <li class="header" style="background-color: #28272D ;color:white ; font-size: 12px; font-family:Times ">MANAGE
+      <li class="">
+        <a href="home.php">
+          <i class="glyphicon glyphicon-briefcase">
+          </i> 
+          <span>Dashboard</span>
+        </a>
       </li>
-      <li class=""><a href="voters.php"><i class="fa fa-users"></i> <span>Voters</span></a></li>
-      <li class=""><a href="positions.php"><i class="fa fa-tasks"></i> <span>Positions</span></a></li>
-      <li class=""><a href="candidates.php"><i class="fa fa-black-tie"></i> <span>Candidates</span></a></li>
-      <li class="header" style="background-color:#28272D ;color:white ; font-size: 12px; font-family:Times">SETTINGS
+      <li class="">
+        <a href="votes.php">
+          <span class="glyphicon glyphicon-th-list">
+          </span> 
+          <span>Voters Who Voted</span>
+        </a>
       </li>
-      <li class=""><a href="ballot.php"><i class="fa fa-file-text"></i> <span>Ballot Position</span></a></li>
-      <li class=""><a href="#config" data-toggle="modal"><i class="fa fa-cogs"></i> <span>Election Title</span></a></li>
+      
+      <li class="header" style="background-color: #28272D ;color:white ; font-size: 12px; font-family:Times ">
+        MANAGE
+      </li>
+      <li class="">
+        <a href="voters.php">
+          <i class="fa fa-user"></i> 
+          <span>Voters</span>
+        </a>
+      </li>
+      <li class="">
+        <a href="positions.php">
+          <i class="fa fa-tasks"></i> 
+          <span>Positions</span>
+        </a>
+      </li>
+      <li class="">
+        <a href="candidates.php">
+          <i class="fa fa-briefcase"></i> 
+          <span>Candidates</span>
+        </a>
+      </li>
+      
+      <li class="header" style="background-color:#28272D ;color:white ; font-size: 12px; font-family:Times">
+        SETTINGS
+      </li>
+      <li class="">
+        <a href="ballot.php">
+          <i class="fa fa-file-text"></i> 
+          <span>Ballot Position</span>
+        </a>
+      </li>
+      <li class="">
+        <a href="#config" data-toggle="modal">
+          <i class="fa fa-cogs"></i> 
+          <span>Election Title</span>
+        </a>
+      </li>
     </ul>
   </section>
   <!-- /.sidebar -->

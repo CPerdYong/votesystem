@@ -2,9 +2,7 @@
 <?php include 'includes/slugify.php'; ?>
 <?php include 'includes/header.php'; ?>
 <style>
-  /* .modal-backdrop.in {
-    opacity: 0 !important;
-  } */
+
 </style>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
@@ -13,15 +11,15 @@
   <?php include 'includes/menubar.php'; ?>
 
   <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper" style="background-color: #F1E9D2 " >
+  <div class="content-wrapper" style="background: linear-gradient(to bottom, rgba(255, 198, 219, 1), rgba(220, 195, 146, 1));" >
     <!-- Content Header (Page header) -->
-    <section class="content-header" style="color:black ; font-size: 17px; font-family:Times">
+    <section class="content-header" style="color:black ; font-size: 17px; font-family:sans-serif">
       <h1><b>
-      📜 Dashboard 📜
+       Dashboard 
       </b></h1>
-      <ol class="breadcrumb" style="color:black ; font-size: 17px; font-family:Times">
+      <ol class="breadcrumb" style="color:black ; font-size: 17px; font-family:sans-serif">
         <li><a href="#"><i class="fa fa-dashboard" ></i> Home</a></li>
-        <li class="active" style="color:black ; font-size: 17px; font-family:Times" >Dashboard</li>
+        <li class="active" style="color:black ; font-size: 17px; font-family:sans-serif" >Dashboard</li>
       </ol>
     </section>
 
@@ -51,10 +49,10 @@
       ?>
       <!-- Small boxes (Stat box) -->
       <div class="row"  >
-      <div class="col-lg-3 col-xs-6" style=" font-family:Times">
+      <div class="col-lg-3 col-xs-6" style=" font-family:sans-serif">
           <!-- small box -->
           <div class="small-box" style="background-color: Red">
-            <div class="inner" style="background-color:#B0C4DE ;color:black ; font-size:15px;" >
+            <div class="inner" style="background-color:#80ffff; ;color:black ; font-size:15px;" >
               <?php
                 $sql = "SELECT * FROM positions";
                 $query = $conn->query($sql);
@@ -62,21 +60,21 @@
                 echo "<h3>".$query->num_rows."</h3>";
               ?>
 
-              <p > <b >No. of Positions </b> </p>
+              <p > <b >Total of Positions </b> </p>
             </div>
             <div class="icon">
               <i class="fa fa-cog"></i>
             </div>
             
-            <a href="positions.php" class="small-box-footer " style="background-color:#4682B4 ; color:black ; font-size:18px">More info <i class="fa fa-arrow-right"></i></a>
+            <a href="positions.php" class="small-box-footer " style="background-color:#00caca ; color:black ; font-size:18px">Go To <i class="fa fa-arrow-right"></i></a>
           </div>
           
         </div>
         <!-- ./col -->
-        <div class="col-lg-3 col-xs-6" style=" font-family:Times">
+        <div class="col-lg-3 col-xs-6" style=" font-family:sans-serif">
           <!-- small box -->
           <div class="small-box bg-green">
-            <div class="inner" style="background-color: 	#DEB887 ;color:black ; font-size:15px">
+            <div class="inner" style="background-color: #ffff80 ;color:black ; font-size:15px">
               <?php
                 $sql = "SELECT * FROM candidates";
                 $query = $conn->query($sql);
@@ -84,21 +82,21 @@
                 echo "<h3  >".$query->num_rows."</h3>";
               ?>
           
-              <p> <b >No. of Candidates </b></p>
+              <p> <b >Total of Candidates </b></p>
             </div>
             <div class="icon">
               
              <i class="fa fa-black-tie"></i>
              
             </div>
-            <a href="candidates.php" class="small-box-footer" style="background-color:	#8B4513 ;color:black ; font-size: 18px">More info <i class="fa fa-arrow-right"></i></a>
+            <a href="candidates.php" class="small-box-footer" style="background-color: #d6d600 ;color:black ; font-size: 18px">Go To  <i class="fa fa-arrow-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
-        <div class="col-lg-3 col-xs-6" style=" font-family:Times">
+        <div class="col-lg-3 col-xs-6" style=" font-family:sans-serif">
           <!-- small box -->
           <div class="small-box bg-yellow">
-          <div class="inner" style="background-color: #B59B91 ;color:black ; font-size:15px; font-family:Times">
+          <div class="inner" style="background-color: #6666ff ;color:black ; font-size:15px; font-family:sans-serif">
               <?php
                 $sql = "SELECT * FROM voters";
                 $query = $conn->query($sql);
@@ -111,38 +109,51 @@
             <div class="icon">
               <i class="fa fa-users"></i>
             </div>
-            <a href="voters.php" class="small-box-footer "style="background-color:  #96837E ;color:black ; font-size: 18px">More info <i class="fa fa-arrow-right"></i></a>
+            <a href="voters.php" class="small-box-footer "style="background-color: #4949ab ;color:black ; font-size: 18px">Go To <i class="fa fa-arrow-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
-        <div class="col-lg-3 col-xs-6" style="color:black ; font-size: 15px; font-family:Times">
+        <div class="col-lg-3 col-xs-6" style="color:black ; font-size: 15px; font-family:sans-serif">
           <!-- small box -->
           <div class="small-box bg-red">
-          <div class="inner" style="background-color: #778899 ;color:black ; font-size:15px; font-family:Times">
-              <?php
-                $sql = "SELECT * FROM votes GROUP BY voters_id";
-                $query = $conn->query($sql);
+          <div class="inner" style="background-color: #a8b3bd ;color:black ; font-size:15px; font-family:sans-serif">
+              <div class="flex-container" style="display: flex;">
+                <div>
+                  <?php
+                    $sql = "SELECT * FROM votes GROUP BY voters_id";
+                    $query = $conn->query($sql);
 
-                echo "<h3>".$query->num_rows."</h3>";
-              ?>
+                    echo "<h3>".$query->num_rows."</h3>";
+                  ?>
+                </div>
+                <div>
+                  <h3> / </h3>
+                </div>
+                <div>
+                  <?php
+                    $sql = "SELECT * FROM voters";
+                    $query = $conn->query($sql);
 
+                    echo "<h3>".$query->num_rows."</h3>";
+                  ?>
+                </div>
+              </div>
               <p> <b>Voters Voted </b></p>
             </div>
             <div class="icon">
               <i class="fa fa-edit"></i>
             </div>
-            <a href="votes.php" class="small-box-footer "style="background-color: #2F4F4F ;color:black ; font-size: 18px">More info <i class="fa fa-arrow-right"></i></a>
+            <a href="votes.php" class="small-box-footer "style="background-color: #437272 ;color:black ; font-size: 18px">Go To <i class="fa fa-arrow-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
       </div>
 
-      <div class="row" style="color:black ; font-size: 17px; font-family:Times">
+      <div class="row" style="color:black ; font-size: 17px; font-family:sans-serif">
         <div class="col-xs-12" >
           <h3> <b>VOTES RESULT
             <span class="pull-right">
             
-              <a href="print.php" class="btn btn-success btn-sm btn-curve" style="background-color: #2E8B57 ;color:black ; font-size: 12px; font-family:Times "><span class="glyphicon glyphicon-print"></span> Print</a>
             </span>
          </b> </h3>
         </div>
