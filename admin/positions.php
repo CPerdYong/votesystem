@@ -49,8 +49,8 @@
               <table id="example1" class="table ">
                 <thead>
                   <th class="hidden"></th>
-                  <th>Description</th>
-                  <th>Maximum Vote</th>
+                  <th>Position Name</th>
+                  <th>No. of Position</th>
                   <th>Tools</th>
                 </thead>
                 <tbody>

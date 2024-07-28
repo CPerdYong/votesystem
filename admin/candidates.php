@@ -51,9 +51,9 @@
                   <th class="hidden"></th>
                   <th>Position</th>
                   <th>Photo</th>
-                  <th>Firstname</th>
-                  <th>Lastname</th>
-                  <th>Platform</th>
+                  <th>Name</th>
+                  <th>Student ID</th>
+                  <th>Declaration</th>
                   <th>Tools</th>
                 </thead>
                 <tbody>

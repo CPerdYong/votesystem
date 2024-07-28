@@ -10,14 +10,14 @@
             <div class="modal-body">
               <form class="form-horizontal" method="POST" action="positions_add.php">
                 <div class="form-group">
-                    <label for="description" class="col-sm-3 control-label">Description</label>
+                    <label for="description" class="col-sm-3 control-label">Position Name</label>
 
                     <div class="col-sm-9">
                       <input type="text" class="form-control" id="description" name="description" required>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="max_vote" class="col-sm-3 control-label">Maximum Vote</label>
+                    <label for="max_vote" class="col-sm-3 control-label">No. of Position</label>
 
                     <div class="col-sm-9">
                       <input type="number" class="form-control" id="max_vote" name="max_vote" required>
@@ -46,14 +46,14 @@
               <form class="form-horizontal" method="POST" action="positions_edit.php">
                 <input type="hidden" class="id" name="id">
                 <div class="form-group">
-                    <label for="edit_description" class="col-sm-3 control-label">Description</label>
+                    <label for="edit_description" class="col-sm-3 control-label">Position Name</label>
 
                     <div class="col-sm-9">
                       <input type="text" class="form-control" id="edit_description" name="description">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="edit_max_vote" class="col-sm-3 control-label">Maximum Vote</label>
+                    <label for="edit_max_vote" class="col-sm-3 control-label">No. of Position</label>
 
                     <div class="col-sm-9">
                       <input type="number" class="form-control" id="edit_max_vote" name="max_vote">
