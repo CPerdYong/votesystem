@@ -49,8 +49,8 @@
                 <thead>
                   <th class="hidden"></th>
                   <th>Position</th>
-                  <th>Candidate</th>
-                  <th>Voter</th>
+                  <th>Candidate's Name</th>
+                  <th>Voter' Name</th>
                 </thead>
                 <tbody>
                   <?php
@@ -61,8 +61,8 @@
                         <tr style='color:black ; font-size: 15px; font-family:Times'>
                           <td class='hidden'></td>
                           <td>".$row['description']."</td>
-                          <td>".$row['canfirst'].' '.$row['canlast']."</td>
-                          <td>".$row['votfirst'].' '.$row['votlast']."</td>
+                          <td>".$row['canfirst']."</td>
+                          <td>".$row['votfirst']."</td>
                         </tr>
                       ";
                     }

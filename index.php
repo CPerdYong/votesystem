@@ -222,7 +222,7 @@ if (isset($_SESSION['voter'])) {
 		<p class="login-box-msg">Your Vote Can Change The Way Things Are</p>
 		<form action="login.php" method="POST">
 			<div class="user-box">
-				<input type="text" name="voter" placeholder="Voter's ID" required>
+				<input type="text" name="voter" placeholder="Student ID" required>
 				<span class="glyphicon glyphicon-user form-control-feedback"></span>
 			</div>
 			<div class="user-box">
