@@ -7,16 +7,12 @@
   <?php include 'includes/menubar.php'; ?>
 
   <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper" style="background-color:#F1E9D2 ;color:black ; font-size: 17px; font-family:Times ">
+  <div class="content-wrapper" style="background: linear-gradient(to bottom, rgba(255, 198, 219, 1), rgba(220, 195, 146, 1));">
     <!-- Content Header (Page header) -->
     <section class="content-header" style= "color:black ; font-size: 17px; font-family:Times">
       <h1>
-        VOTES
+        <b>VOTES</b>
       </h1>
-      <ol class="breadcrumb" style="color:black ; font-size: 17px; font-family:Times">
-        <li><a href="#"><i class="fa fa-dashboard" ></i> Home</a></li>
-        <li class="active" style="color:black ; font-size: 17px; font-family:Times" >Dashboard</li>
-      </ol>
     </section>
     <!-- Main content -->
     <section class="content">
@@ -44,8 +40,8 @@
       ?>
       <div class="row">
         <div class="col-xs-12">
-          <div class="box"style="background-color: #d8d1bd">
-            <div class="box-header with-border"style="background-color: #d8d1bd">
+          <div class="box"style="background-color: #efe3bd;">
+            <div class="box-header with-border"style="background-color: #ebd593;">
               <a href="#reset" data-toggle="modal" class="btn btn-danger btn-sm btn-curve"  style="background-color: #ff8e88;color:black ; font-size: 12px; font-family:Times"><i class="fa fa-refresh"></i> Reset</a>
             </div>
             <div class="box-body">

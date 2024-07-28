@@ -17,10 +17,7 @@
       <h1><b>
        Dashboard 
       </b></h1>
-      <ol class="breadcrumb" style="color:black ; font-size: 17px; font-family:sans-serif">
-        <li><a href="#"><i class="fa fa-dashboard" ></i> Home</a></li>
-        <li class="active" style="color:black ; font-size: 17px; font-family:sans-serif" >Dashboard</li>
-      </ol>
+      
     </section>
 
     <!-- Main content -->

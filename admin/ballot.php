@@ -7,16 +7,13 @@
   <?php include 'includes/menubar.php'; ?>
 
   <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper" style="background-color:#F1E9D2 ">
+  <div class="content-wrapper" style="background: linear-gradient(to bottom, rgba(255, 198, 219, 1), rgba(220, 195, 146, 1)); ">
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1><b>
         Ballot Position
       </b></h1>
-      <ol class="breadcrumb" style="color:black ; font-size: 17px; font-family:Times">
-        <li><a href="#"><i class="fa fa-dashboard" ></i> Home</a></li>
-        <li class="active" style="color:black ; font-size: 17px; font-family:Times" >Dashboard</li>
-      </ol>
+      
     </section>
     <!-- Main content -->
     <section class="content">
