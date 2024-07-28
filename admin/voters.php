@@ -47,8 +47,8 @@
             <div class="box-body">
               <table id="example1" class="table ">
                 <thead>
-                  <th>Lastname</th>
-                  <th>Firstname</th>
+                  <th>Name</th>
+                  <th>Student ID</th>
                   <th>Photo</th>
                   <th>Voters ID</th>
                   <th>Tools</th>

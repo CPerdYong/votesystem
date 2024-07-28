@@ -1,5 +1,5 @@
 <!-- Description -->
-<div class="modal fade" data-backdrop="" id="platform">
+<div class="modal fade" data-backdrop="" id="platform" style="background:none;border:none;">
     <div class="modal-dialog">
         <div class="modal-content" style="background-color: #d8d1bd ;color:black ; font-size: 15px; font-family:Times ">
             <div class="modal-header">
@@ -18,7 +18,7 @@
 </div>
 
 <!-- Add -->
-<div class="modal fade" data-backdrop="" id="addnew">
+<div class="modal fade" data-backdrop="" id="addnew" style="background:none;border:none;">
     <div class="modal-dialog">
         <div class="modal-content" style="background-color: #d8d1bd ;color:black ; font-size: 15px; font-family:Times ">
             <div class="modal-header">
@@ -68,7 +68,7 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="platform" class="col-sm-3 control-label">Declaration</label>
+                    <label for="platform" class="col-sm-3 control-label">Information</label>
 
                     <div class="col-sm-9">
                       <textarea class="form-control" id="platform" name="platform" rows="7"></textarea>
@@ -85,7 +85,7 @@
 </div>
 
 <!-- Edit -->
-<div class="modal fade" data-backdrop="" id="edit">
+<div class="modal fade" data-backdrop="" id="edit" style="background:none;border:none;">
     <div class="modal-dialog">
         <div class="modal-content" style="background-color: #d8d1bd ;color:black ; font-size: 15px; font-family:Times ">
             <div class="modal-header">
@@ -129,7 +129,7 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="edit_platform" class="col-sm-3 control-label">Declaration</label>
+                    <label for="edit_platform" class="col-sm-3 control-label">Information </label>
 
                     <div class="col-sm-9">
                       <textarea class="form-control" id="edit_platform" name="platform" rows="7"></textarea>
@@ -146,7 +146,7 @@
 </div>
 
 <!-- Delete -->
-<div class="modal fade" data-backdrop="" id="delete">
+<div class="modal fade" data-backdrop="" id="delete" style="background:none;border:none;">
     <div class="modal-dialog">
         <div class="modal-content" style="background-color: #d8d1bd ;color:black ; font-size: 15px; font-family:Times ">
             <div class="modal-header">
@@ -172,7 +172,7 @@
 </div>
 
 <!-- Update Photo -->
-<div class="modal fade" data-backdrop="" id="edit_photo">
+<div class="modal fade" data-backdrop="" id="edit_photo" style="background:none;border:none;">
     <div class="modal-dialog">
         <div class="modal-content" style="background-color: #d8d1bd ;color:black ; font-size: 15px; font-family:Times ">
             <div class="modal-header">

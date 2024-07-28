@@ -53,7 +53,7 @@
                   <th>Photo</th>
                   <th>Name</th>
                   <th>Student ID</th>
-                  <th>Declaration</th>
+                  <th>Information</th>
                   <th>Tools</th>
                 </thead>
                 <tbody>

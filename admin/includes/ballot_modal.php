@@ -1,5 +1,5 @@
 <!-- Platform -->
-<div class="modal fade" data-backdrop="" id="platform">
+<div class="modal fade" data-backdrop="" id="platform"  style="background:none;border:none;">
     <div class="modal-dialog">
         <div class="modal-content" style="background-color: #d8d1bd ;color:black ; font-size: 15px; font-family:Times ">
             <div class="modal-header">
@@ -11,7 +11,7 @@
               <p id="plat_view"></p>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-default btn-curve pull-left"style='background-color:  #FFDEAD  ;color:black ; font-size: 12px; font-family:Times' data-dismiss="modal"><i class="fa fa-close"></i> Close</button>
+              <button type="button" class="btn btn-default btn-curve pull-left"style='background-color:  #ffff80  ;color:black ; font-size: 12px; font-family:Times' data-dismiss="modal"><i class="fa fa-close"></i> Close</button>
             </div>
         </div>
     </div>

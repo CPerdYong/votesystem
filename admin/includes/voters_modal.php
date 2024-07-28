@@ -1,5 +1,5 @@
 <!-- Add -->
-<div class="modal fade" data-backdrop="" id="addnew">
+<div class="modal fade" data-backdrop="" id="addnew" style="background:none;border:none;">
     <div class="modal-dialog">
         <div class="modal-content" style="background-color: #d8d1bd ;color:black ; font-size: 15px; font-family:Times ">
             <div class="modal-header">
@@ -10,14 +10,14 @@
             <div class="modal-body">
               <form class="form-horizontal" method="POST" action="voters_add.php" enctype="multipart/form-data">
                 <div class="form-group">
-                    <label for="firstname" class="col-sm-3 control-label">Firstname</label>
+                    <label for="firstname" class="col-sm-3 control-label">Name</label>
 
                     <div class="col-sm-9">
                       <input type="text" class="form-control" id="firstname" name="firstname" required>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="lastname" class="col-sm-3 control-label">Lastname</label>
+                    <label for="lastname" class="col-sm-3 control-label">Student ID</label>
 
                     <div class="col-sm-9">
                       <input type="text" class="form-control" id="lastname" name="lastname" required>
@@ -48,7 +48,7 @@
 </div>
 
 <!-- Edit -->
-<div class="modal fade" data-backdrop="" id="edit">
+<div class="modal fade" data-backdrop="" id="edit" style="background:none;border:none;">
     <div class="modal-dialog">
         <div class="modal-content" style="background-color: #d8d1bd ;color:black ; font-size: 15px; font-family:Times ">
             <div class="modal-header">
@@ -60,14 +60,14 @@
               <form class="form-horizontal" method="POST" action="voters_edit.php">
                 <input type="hidden" class="id" name="id">
                 <div class="form-group">
-                    <label for="edit_firstname" class="col-sm-3 control-label">Firstname</label>
+                    <label for="edit_firstname" class="col-sm-3 control-label">Name</label>
 
                     <div class="col-sm-9">
                       <input type="text" class="form-control" id="edit_firstname" name="firstname">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="edit_lastname" class="col-sm-3 control-label">Lastname</label>
+                    <label for="edit_lastname" class="col-sm-3 control-label">Student ID</label>
 
                     <div class="col-sm-9">
                       <input type="text" class="form-control" id="edit_lastname" name="lastname">
@@ -91,7 +91,7 @@
 </div>
 
 <!-- Delete -->
-<div class="modal fade" data-backdrop="" id="delete">
+<div class="modal fade" data-backdrop="" id="delete" style="background:none;border:none;">
     <div class="modal-dialog">
         <div class="modal-content" style="background-color: #d8d1bd ;color:black ; font-size: 15px; font-family:Times ">
             <div class="modal-header">
@@ -117,7 +117,7 @@
 </div>
 
 <!-- Update Photo -->
-<div class="modal fade" data-backdrop="" id="edit_photo">
+<div class="modal fade" data-backdrop="" id="edit_photo" style="background:none;border:none;">
     <div class="modal-dialog">
         <div class="modal-content" style="background-color: #d8d1bd ;color:black ; font-size: 15px; font-family:Times ">
             <div class="modal-header">

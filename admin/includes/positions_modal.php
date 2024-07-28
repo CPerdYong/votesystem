@@ -1,5 +1,5 @@
 <!-- Add -->
-<div class="modal fade" data-backdrop="" id="addnew" >
+<div class="modal fade" data-backdrop="" id="addnew" style="background:none;border:none;">
     <div class="modal-dialog" >
         <div class="modal-content" style="background-color: #d8d1bd ;color:black ; font-size: 15px; font-family:Times ">
             <div class="modal-header">
@@ -34,7 +34,7 @@
 </div>
 
 <!-- Edit -->
-<div class="modal fade" data-backdrop="" id="edit">
+<div class="modal fade" data-backdrop="" id="edit" style="background:none;border:none;">
     <div class="modal-dialog">
         <div class="modal-content" style="background-color: #d8d1bd ;color:black ; font-size: 15px; font-family:Times ">
             <div class="modal-header">
@@ -70,7 +70,7 @@
 </div>
 
 <!-- Delete -->
-<div class="modal fade" data-backdrop="" id="delete">
+<div class="modal fade" data-backdrop="" id="delete" style="background:none;border:none;">
     <div class="modal-dialog">
         <div class="modal-content" style="background-color: #d8d1bd ;color:black ; font-size: 15px; font-family:Times ">
             <div class="modal-header">
